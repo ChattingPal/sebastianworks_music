@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to right, #4ad200, #3d85c6);
+    background: linear-gradient(to bottom, #4ad200, #3d85c6);
     height: 100vh; /* Ensures the gradient covers the full height of the viewport */
     colour: white;
 }
