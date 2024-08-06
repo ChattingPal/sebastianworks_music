@@ -18,10 +18,35 @@
             </ul>
         </nav>
     </header>
+    <style>
+      .center {
+        margin: 0 auto;
+        width: 50%; /* Set a width to see the effect */
+      }
+      .container {
+      display: flex;
+      justify-content: space-between; /* Adjusts spacing between divs */
+    }
+    </style>
     <main>
         <section id="home">
-            <h2>Sebastian Berg</h2>
-            <p>The danish Joost Klein</p>
+            <h1>Sebastian Berg</h1>
+            <p>"The danish Joost Klein"</p>
+            <br>
+            <h2 style="width: 300px;">Introduction</h2>
+            <div class="container">
+            <p style="width: 300px;">Sebastian Berg is not well known, but he is in his local area.
+            Sebastian has also started his own record label where he releases music from.
+            I currently can't tell which artists yet! But the time will come</p>
+            <br>
+            <p style="width: 300px;">Sebastian Berg is not well known, but he is in his local area.
+            Sebastian has also started his own record label where he releases music from.
+            I currently can't tell which artists yet! But the time will come</p>
+            <br>
+            <p style="width: 300px;">Sebastian Berg is not well known, but he is in his local area.
+            Sebastian has also started his own record label where he releases music from.
+            I currently can't tell which artists yet! But the time will come</p>
+            </div>
         </section>
         <section id="music" class="hidden">
             <h2>Songs</h2>
@@ -35,11 +60,6 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>Aksel Holberg</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
                         <td>Sleeping Angel</td>
                         <td>Spotify, Apple Music, Amazon Music and more</td>
                         <td>22/06/2024</td>
@@ -47,81 +67,70 @@
                 </tbody>
             </table>
         </section>
-        <section id="teachers" class="hidden">
-            <h2>Portalens Egne Opgaver</h2>
+        <section id="membership" class="hidden">
+            <h2>Become a member and support Sebastian!</h2>
+            <h3>Choose one of the following plans:</h3>
             <table>
                 <thead>
                     <tr>
-                        <th>ID</th>
-                        <th>Navn</th>
-                        <th>Link</th>
+                        <th>Features</th>
+                        <th>Plan</th>
+                        <th>Price</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>Dansk</td>
-                        <td>Hjælpemidler: <a href="https://indidansk.dk">indidansk</a> /
-                        <a href="https://ordbogen.com">Ordbogen</a> /
-                        <a href="/pcourses/danish.html">Forløb</a>
-                        </td>
+                        <td>Name written on website</td>
+                        <td>Farmer</td>
+                        <td>€2.99/month</td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Engelsk</td>
-                        <td>
-                            Hjælpemidler: <a href="https://ordbogen.com">Ordbogen</a> /
-                        <a href="/pcourses/english.html">Forløb</a>
-                        </td>
+                        <td>Name written on website /
+                        Discord Perks /
+                        15% Coupon Codes</td>
+                        <td>Engineer</td>
+                        <td>€4.99/month</td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>Tysk</td>
-                        <td>
-                            Hjælpemidler: <a href="https://ordbogen.com">Ordbogen</a> /
-                        <a href="/pcourses/german.html">Forløb</a>
-                        </td>
+                        <td>Name written on website /
+                        Discord Perks /
+                        15% Coupon Codes /
+                        A page about yourself</td>
+                        <td>Lieutenant</td>
+                        <td>€9.99/month</td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>Bio/Fysik</td>
-                        <td>ss</td>
+                        <td>Name written on website /
+                        Discord Perks /
+                        20% Coupon Codes /
+                        A page about yourself /
+                        Special chat with Sebastian and co.</td>
+                        <td>Monarch</td>
+                        <td>€11.99/month</td>
                     </tr>
                 </tbody>
             </table>
         </section>
-        <section id="courses" class="hidden">
-            <h2>Opgaver</h2>
-            <h3>Opgaver</h3>
-            <table id="assignments-table">
-                <thead>
-                    <tr>
-                        <th>Titel</th>
-                        <th>Beskrivelse</th>
-                        <th>Deadline</th>
-                        <th>Delete</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Assignments will be added here -->
-                </tbody>
-            </table>
-            <h3>Tilføj Opgaver</h3>
-            <form id="assignment-form">
-                <label for="assignment-name">Opgave Titel:</label>
-                <input type="text" id="assignment-name" name="assignment-name" required>
-                <label for="assignment-description">Beskrivelse (links?):</label>
-                <input type="text" id="assignment-description" name="assignment-description">
-                <label for="assignment-deadline">Deadline:</label>
-                <input type="date" id="assignment-deadline" name="assignment-deadline" required>
-                <label for="passcode">Passcode:</label>
-                <input type="password" id="passcode" name="passcode" required>
-                <button type="submit">Tilføj Opgave</button>
-            </form>
+        <section id="aboutme" class="hidden">
+            <h2>About Me</h2>
+            <p>pssst!! go to the bottom of the page to see subscribers!</p>
+            <br>
+            <p style="width: 500px;">Sebastian Berg is a young boy, born in 2010, 2nd of August.
+            Sebastian started his career back in 2020-21, with some pop/indie pop. He kept making
+            music and uploaded to SoundCloud until he decided, it was time to start the serious
+            work. Then he began with his first release, Sleeping Angel.</p>
+            <p style="width: 500px;">Sebastian got his inspiration from; Gorillaz, Joost Klein and
+            Melanie Martinez. He currently is inspired by a small indie band, Hey Julis! It was them
+            who inspired Sebastian to make this website!</p>
+            <br>
+            <h3>Subscribers</h3>
+            <p>There is currently none, but its never too late to show support!
+            <a href="#" id="nav-membership">Become Member</a></li></p>
+            <br>
         </section>
     </main>
     <footer>
-        <p>Contact us: school@example.com</p>
+        <p>Contact me: sebastianberg.email@gmail.com</p>
     </footer>
     <script src="javascript/scripts.js"></script>
 </body>
