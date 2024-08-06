@@ -97,3 +97,10 @@ footer {
 .navy {
     background-color: #3d85c6;
 } */
+
+body {
+    background: linear-gradient(to right, #ff4d4d, #4ad200, #3d85c6);
+    height: 100vh; /* Ensures the gradient covers the full height of the viewport */
+    margin: 0; /* Removes default margin */
+}
+
