@@ -1,1 +1,128 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>SchoolWorks</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="nav-home">Hjem</a></li>
+                <li><a href="#" id="nav-students">Elever</a></li>
+                <li><a href="#" id="nav-teachers">Portalens Egne</a></li>
+                <li><a href="#" id="nav-courses">Opgaver</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Velkommen til SchoolWorks!</h2>
+            <p>Brug navigationsbaren til at se forskellige informationer</p>
+        </section>
+        <section id="students" class="hidden">
+            <h2>Elever</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Navn</th>
+                        <th>Klasse</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Aksel Holberg</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bob Smith</td>
+                        <td>11</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="teachers" class="hidden">
+            <h2>Portalens Egne Opgaver</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Navn</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Dansk</td>
+                        <td>Hjælpemidler: <a href="https://indidansk.dk">indidansk</a> /
+                        <a href="https://ordbogen.com">Ordbogen</a> /
+                        <a href="/pcourses/danish.html">Forløb</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Engelsk</td>
+                        <td>
+                            Hjælpemidler: <a href="https://ordbogen.com">Ordbogen</a> /
+                        <a href="/pcourses/english.html">Forløb</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Tysk</td>
+                        <td>
+                            Hjælpemidler: <a href="https://ordbogen.com">Ordbogen</a> /
+                        <a href="/pcourses/german.html">Forløb</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Bio/Fysik</td>
+                        <td>ss</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="courses" class="hidden">
+            <h2>Opgaver</h2>
+            <h3>Opgaver</h3>
+            <table id="assignments-table">
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Beskrivelse</th>
+                        <th>Deadline</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Assignments will be added here -->
+                </tbody>
+            </table>
+            <h3>Tilføj Opgaver</h3>
+            <form id="assignment-form">
+                <label for="assignment-name">Opgave Titel:</label>
+                <input type="text" id="assignment-name" name="assignment-name" required>
+                <label for="assignment-description">Beskrivelse (links?):</label>
+                <input type="text" id="assignment-description" name="assignment-description">
+                <label for="assignment-deadline">Deadline:</label>
+                <input type="date" id="assignment-deadline" name="assignment-deadline" required>
+                <label for="passcode">Passcode:</label>
+                <input type="password" id="passcode" name="passcode" required>
+                <button type="submit">Tilføj Opgave</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: school@example.com</p>
+    </footer>
+    <script src="javascript/scripts.js"></script>
+</body>
+</html>
