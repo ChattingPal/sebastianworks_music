@@ -12,8 +12,8 @@ body {
                 #FF4500, 
                 #FF33A1, 
                 #3357FF);
-    height: 250vh; /* Ensures the gradient covers the full height of the viewport */
-    colour: white;
+    height: 100vh; /* Ensures the gradient covers the full height of the viewport */
+    color: white; /* Corrected property */
 }
 
 header {
@@ -96,5 +96,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-
