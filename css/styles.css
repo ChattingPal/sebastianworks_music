@@ -12,7 +12,7 @@ body {
                 #FF4500, 
                 #FF33A1, 
                 #3357FF);
-    height: 100vh; /* Ensures the gradient covers the full height of the viewport */
+    height: 250vh; /* Ensures the gradient covers the full height of the viewport */
     colour: white;
 }
 
